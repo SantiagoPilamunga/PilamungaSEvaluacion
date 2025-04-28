@@ -1,10 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PilamungaSEvaluacion.Models
 {
     public class Clientes
     {
+        
         [Key]
         public int Id { get; set; }
         [Required]
@@ -15,7 +17,7 @@ namespace PilamungaSEvaluacion.Models
         public float DineroSeparar { get; set; } //monto de dinero que puso para separar la reserva
         public DateOnly FechaNacimiento { get; set; }
         public Boolean Asociado { get; set; }
-        public int NumTotalReservas {  get; set; }
+        public int NumTotalReservas { get; set; }
         //public string Descripcion { get; set; }
         //public string Logo { get; set; }
 

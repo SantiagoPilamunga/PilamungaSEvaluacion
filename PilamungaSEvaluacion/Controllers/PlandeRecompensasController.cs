@@ -58,6 +58,7 @@ namespace PilamungaSEvaluacion.Controllers
         {
             if (ModelState.IsValid)
             {
+                plandeRecompensas.Puntos = plandeRecompensas.NumTotalReservas * 100; // calculamos los puntos
                 _planRecompensas.Add(plandeRecompensas);
                 await _planRecompensas.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -97,6 +98,7 @@ namespace PilamungaSEvaluacion.Controllers
             {
                 try
                 {
+                    plandeRecompensas.Puntos = plandeRecompensas.NumTotalReservas * 100;
                     _planRecompensas.Update(plandeRecompensas);
                     await _planRecompensas.SaveChangesAsync();
                 }
