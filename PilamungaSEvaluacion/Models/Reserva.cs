@@ -4,6 +4,8 @@ namespace PilamungaSEvaluacion.Models
 {
     public class Reserva
     {
+        [Key]
+        public int IdReserva { get; set; }
         [Required]
         public DateOnly FechaEntrada { get; set; }
         [Required]

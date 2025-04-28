@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using PilamungaSEvaluacion.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PilamungaSEvaluacionContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("PilamungaSEvaluacionContext") ?? throw new InvalidOperationException("Connection string 'PilamungaSEvaluacionContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
