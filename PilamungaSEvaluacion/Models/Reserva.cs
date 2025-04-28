@@ -2,6 +2,7 @@
 
 namespace PilamungaSEvaluacion.Models
 {
+    //en reserva utilizamos lo que nos pide y tambien pusimos la key y otro como required
     public class Reserva
     {
         [Key]

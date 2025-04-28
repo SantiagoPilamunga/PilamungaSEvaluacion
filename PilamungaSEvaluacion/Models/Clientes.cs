@@ -6,7 +6,7 @@ namespace PilamungaSEvaluacion.Models
 {
     public class Clientes
     {
-        
+        // dentro de clientes pusimos todo lo que nos pide y tambien lo utilizamos para el apartado de pla recompensas
         [Key]
         public int Id { get; set; }
         [Required]
@@ -19,7 +19,6 @@ namespace PilamungaSEvaluacion.Models
         public Boolean Asociado { get; set; }
         public int NumTotalReservas { get; set; }
         //public string Descripcion { get; set; }
-        //public string Logo { get; set; }
 
     }
 }

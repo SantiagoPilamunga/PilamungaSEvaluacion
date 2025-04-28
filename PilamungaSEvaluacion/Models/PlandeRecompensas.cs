@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PilamungaSEvaluacion.Models
 {
+    // dentro de este heredamos directamente de cliente para no tener que repetir las cosas y solo agregamos puntos el tipo de recompensay la fecha
     public class PlandeRecompensas : Clientes
     {
         
