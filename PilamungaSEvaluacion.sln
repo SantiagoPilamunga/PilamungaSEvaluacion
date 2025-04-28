@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PilamungaSEvaluacion", "PilamungaSEvaluacion\PilamungaSEvaluacion.csproj", "{F81BC77B-B1AE-4693-883C-166EB4A7F4D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F81BC77B-B1AE-4693-883C-166EB4A7F4D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F81BC77B-B1AE-4693-883C-166EB4A7F4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F81BC77B-B1AE-4693-883C-166EB4A7F4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F81BC77B-B1AE-4693-883C-166EB4A7F4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2B894D6-71C8-438E-B8F9-4A3A3DE54A8A}
+	EndGlobalSection
+EndGlobal
