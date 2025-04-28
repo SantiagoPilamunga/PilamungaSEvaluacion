@@ -13,7 +13,6 @@ namespace PilamungaSEvaluacion.Models
         public string Nombre { get; set; }
         [Range(0, 100)]
         public float DineroSeparar { get; set; } //monto de dinero que puso para separar la reserva
-        [Range(0, 100)]
         public DateOnly FechaNacimiento { get; set; }
         public Boolean Asociado { get; set; }
         public int NumTotalReservas {  get; set; }

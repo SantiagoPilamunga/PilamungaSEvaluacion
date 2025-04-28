@@ -8,5 +8,6 @@ namespace PilamungaSEvaluacion.Models
         [Required]
         public DateOnly FechaInicio { get; set; }
         public int Puntos => (NumTotalReservas * 100); //Calculamos directamente los puntos
+
     }
 }
