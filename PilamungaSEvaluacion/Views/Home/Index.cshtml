@@ -9,14 +9,12 @@
     <div class="form-group">
         <label class="control-label"></label>
         <img src="~/Img/img-meme.jpg" class="img-fluid" style="max-height: 500px; max-width: 400px" />
-        <h6 class="display-4">Alerta</h6>
-        <button type="button" class="btn btn-outline-info"
-                data-bs-toggle="popover"
-                data-bs-trigger="focus"
-                data-bs-placement="top"
-                title="Alerta"
-                data-bs-content="Mi nombre es santiago, mi hobbie es jugar videojuegos y el valor de campo de texto es 150">
-            Alerta
-        </button>
+        
+        <div class="mt-3">
+            <label for="userInput" class="form-label">Ingresa tu texto:</label>
+            <input type="text" id="userInput" name="userInput" class="form-control" placeholder="Escribe algo" />
+        </div>
+        <button type="button" class="btn btn-outline-info">Enviar</button>
     </div>
+    
     

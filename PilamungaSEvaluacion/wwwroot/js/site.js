@@ -1,4 +1,9 @@
-﻿// Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿document.addEventListener("DOMContentLoaded", function () {
+    const button = document.querySelector(".btn-outline-info");
+    const inputField = document.querySelector("#userInput");
 
-// Write your JavaScript code.
+    button.addEventListener("click", function () {
+        const inputValue = inputField.value || "vacío";
+        alert(Mi nombre es Santiago Pilamunga, mi hobbie es jugar videojuegos y el valor del campo de texto es: ${ inputValue });
+    });
+});
