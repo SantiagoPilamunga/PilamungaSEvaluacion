@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PilamungaSEvaluacion.Data;
 using PilamungaSEvaluacion.Models;
+//dentro de esta parte se genera bien los clientes pero para que se aplique los puntos se debe crear en la pantalla de plan de recompensas
 
 namespace PilamungaSEvaluacion.Controllers
 {

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PilamungaSEvaluacion.Data;
 using PilamungaSEvaluacion.Models;
+//se cumple correctamente el guardado de la reserva sin ningun problema
 
 namespace PilamungaSEvaluacion.Controllers
 {

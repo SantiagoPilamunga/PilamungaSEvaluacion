@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PilamungaSEvaluacion.Data;
 using PilamungaSEvaluacion.Models;
+//en este se genera todo correctamente y si se genera un nuevo cliente si se crea uno nuevo desde esta parte
 
 namespace PilamungaSEvaluacion.Controllers
 {
