@@ -30,6 +30,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.NumTotalReservas)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Puntos)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -54,11 +57,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.NumTotalReservas)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Puntos)
+                </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
             </td>
+
         </tr>
 }
     </tbody>
