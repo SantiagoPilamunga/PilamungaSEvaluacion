@@ -9,5 +9,15 @@ namespace PilamungaSEvaluacion.Models
         [Required]
         public DateOnly FechaInicio { get; set; }
         public int Puntos {  get; set; }
+        public String TipoRecompensa
+        {
+            get
+            {
+                if (Puntos < 500)
+                    return "SILVER";
+                else
+                    return "GOLD";
+            }
+        }
     }
 }
